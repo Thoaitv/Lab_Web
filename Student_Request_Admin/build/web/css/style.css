@@ -1,0 +1,304 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 28, 2021, 8:40:27 AM
+    Author     : thoai
+*/
+
+body{
+    font-family: Time News Roman;
+    margin: auto;
+}
+.container{
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+}
+/*header start*/
+.header{
+    background: url(../images/front.jpg);
+    width: 980px;
+    height: 220px;
+}
+.head-name{
+    text-align: center;
+    color:white;
+}
+.university{
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.teacher{
+    font-size: 25px;
+    margin-top: 10px;
+}
+/*header end*/
+
+/*main start*/
+.main{
+    width: 980px;
+    height: auto;
+    display: flex;
+}
+/*left start*/
+.left{
+    margin-top: -35px;
+    width: 16%;
+    height: 300px;
+}
+.option{
+    margin-top: 15px;
+    border: 1px solid #d2d2d2;
+    background-image: linear-gradient(to top,#e8e8e8, #fcfcfc);
+    /*40px la vua*/
+    height: auto;
+}
+.option a{
+    color: #575758;
+    text-decoration: none;
+    width: 100%;
+}
+.option p{
+    margin: 5px;
+    color: #0f5591;
+    font-weight: bold;
+}
+/*left end*/
+
+/*right start*/
+.right{
+    margin-top: -95px;
+    margin-left: 30px;
+    width: 61%;
+    height: auto;
+    font-family: sans-serif;
+}
+.right h3{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #3d7bbb;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #d7d7d7;
+}
+.right th{
+    padding: 10px 0;
+    width: 199.26px;
+    background-image: linear-gradient(to top,#d7d7d7, white,white);
+}
+.right td{
+    padding: 15px 10px;
+}
+.right a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.departName{
+    color: green;
+}
+/*right end*/
+/*main end*/
+
+/*footer start*/
+.footer{
+    background: url(../images/footerbg.jpg);
+    width: 980px;
+    height: 84px;
+}
+/*footer end*/
+
+/*login start*/
+.login{
+    margin-top: -95px;
+    margin-left: 30px;
+    width: 61%;
+    height: auto;
+    font-family: Time News Roman;
+    text-align: center;
+}
+h1{
+    margin-bottom: 0;
+    color: #3d7bbb;
+}
+input{
+    width: 250px;
+    border: 2px solid #b4b4b4;
+}
+.margin-bottom-15{
+    margin-bottom: 15px;
+}
+label{
+    margin-right: 5px;
+}
+.margin-top-15{
+    margin-top: 15px;
+}
+.login p{
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+.color-red{
+    color:red;
+}
+.invalid{
+    border: 3px solid #cc0000;
+
+}
+.valid{
+    border: 3px solid green; 
+    /*background-color: #b1e7d5;*/
+}
+.text-danger{
+    color: #cc0000;
+    margin-left: 10px;
+}
+/*login end*/
+
+/*view request start*/
+.view-request{
+    margin-top: -95px;
+    margin-left: 30px;
+    width: 61%;
+    height: auto;
+    font-family: Time News Roman;
+}
+.search{
+    border-left: 2px solid #adadad;
+    border-right: 2px solid #adadad;
+    border-top: 2px solid #adadad;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    height: auto;
+    background-image: linear-gradient(to top,#d6d6d6 40%, white 100%);
+}
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+.margin-top-5{
+    margin-top: 5px;
+}
+.gradient{
+    background-image: linear-gradient(to top,#e8e8e8, white);
+}
+.select{
+    width: 200px;
+    border: 1px solid #d7d7d7;
+}
+.list-request table{
+    border-left: 2px solid #adadad;
+    border-right: 2px solid #adadad;
+    border-top: #d6d6d6;
+    border-bottom: 2px solid #adadad;
+}
+.list-request th{
+    font-weight: normal;
+    padding: 5px 0;
+    background-image: linear-gradient(to top,#d7d7d7 30%, white, white);
+}
+.list-request td{
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+}
+.list-request a{
+    text-decoration: none;
+    color: black;
+}
+.text-bold{
+    font-weight: bold;
+}
+.text-center{
+    text-align: center;
+}
+.not-found{
+    text-align: center;
+    color: #575758;
+}
+/*view request end*/
+
+/*solve request start*/
+.solve-request{
+    margin-top: -95px;
+    margin-left: 30px;
+    width: 61%;
+    height: auto;
+    font-family: sans-serif;
+}
+.solve-request table{
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    color: #575758;
+}
+.solve-request table td{
+    padding-top: 5px;
+    position: relative;
+}
+.solve-request input{
+    color: #575758;
+}
+textArea{
+    border: 2px solid #b4b4b4;
+    font-family: sans-serif;
+    color: #575758;
+}
+.top-right{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+.width-30{
+    width: 30%;
+}
+.width-70{
+    width: 70%;
+}
+.text-right{
+    text-align: right;
+}
+.width-inherit{
+    width: inherit;
+}
+.boder-radius-5{
+    border-radius: 5px;
+}
+.color-blue{
+    color:blue;
+}
+.color-green{
+    color:green;
+}
+.padding-right-5{
+    padding-right: 5px;
+}
+.gradient2{
+    background-image: linear-gradient(to top,#d7d7d7, white,white);
+}
+.readonly{
+    background-color: #f3f3f3;
+}
+.disable{
+    background-color: #e2e2e2;
+}
+
+/*solve request end*/
+
+/*request login start*/
+.requestLogin{
+    margin: 0 auto;
+    width: 61%;
+    height: auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+.requestLogin a{
+    color: #1c3868;
+}
